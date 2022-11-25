@@ -441,6 +441,7 @@ nav .navbar {
     flex-wrap: wrap;
     margin: 10rem 0;
     padding: 0 5rem;
+ 
 }
 
 .contact-from form {
@@ -449,8 +450,7 @@ nav .navbar {
     background: linear-gradient(rgba(10, 139, 149, 0.8), rgba(11, 106, 107, 0.8));
     padding: 3rem 3rem 0 3rem;
     border-radius: 10px;
-   
-
+    height: 56rem;
 }
 
 #contact-from form .input-container {
@@ -488,11 +488,8 @@ form .input-container textarea {
 
 form .input-container .btn {
     width: 13rem;
-    height: 6rem;
     font-size: 3rem;
     font-weight: 600;
-    position: relative;
-    left: 36rem;
     color: #28f8f8;
     transition: var(--transition);
 }
@@ -900,13 +897,6 @@ a.google span {
     form .input-container textarea {
         width: 50rem;
     }
-
-    form .input-container .btn {
-        position: relative;
-        left: 35rem;
-    }
-    
-
     .main .img img {
         width: 60rem;
         height: 30rem;
@@ -966,17 +956,6 @@ a.google span {
         width: 100%;
     }
     
-    form .input-container .btn {
-        display: none;
-        /* width: 5rem; */
-        height: 6rem;
-        font-size: 3rem;
-        font-weight: 600;
-        position: relative;
-        left: 25rem;
-        color: #28f8f8;
-        transition: var(--transition);
-    }
     .footer-contant .left {
         width: 80%;
     }
@@ -994,6 +973,7 @@ a.google span {
     .form {
         width: 90%;
     }
+
 }
 
 @media (max-width:400px) {
@@ -1067,13 +1047,3 @@ a.google span {
         margin: 2rem 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
