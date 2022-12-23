@@ -450,7 +450,6 @@ nav .navbar {
     background: linear-gradient(rgba(10, 139, 149, 0.8), rgba(11, 106, 107, 0.8));
     padding: 3rem 3rem 0 3rem;
     border-radius: 10px;
-    height: 56rem;
 }
 
 #contact-from form .input-container {
@@ -458,8 +457,8 @@ nav .navbar {
 }
 
 form .input-container input {
-    width: 50rem;
-    height: 6rem;
+    width: 45rem;
+    height: 5rem;
     margin: 1rem 0;
     font-size: 3rem;
     padding: 1rem;
@@ -469,15 +468,15 @@ form .input-container input {
 
 form .input-container input::placeholder,
 textarea::placeholder {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 1rem;
     color: #ffffffbd;
 }
 
 form .input-container textarea {
-    width: 50rem;
-    height: 18rem;
+    width: 45rem;
+    height: 13rem;
     font-size: 3rem;
     padding: 1rem;
     margin: 1rem 0;
@@ -488,7 +487,7 @@ form .input-container textarea {
 
 form .input-container .btn {
     width: 13rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #28f8f8;
     transition: var(--transition);
